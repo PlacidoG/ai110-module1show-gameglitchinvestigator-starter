@@ -4,15 +4,17 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 ## 1. What was broken when you started?
 
-- What did the game look like the first time you ran it?
-- List at least two concrete bugs you noticed at the start  
-  (for example: "the secret number kept changing" or "the hints were backwards").
+- When I first used the game, it said I guessed the number on the first try and ballons and fireworks shot up.
+
+- The 'New Game' button dosen't create a new game but changes the secret number at ('Secret) in Developer Debug Info
+- When switching difficulity levels, the database dosen't update the blue highlighted prompt when changing to 'Easy' or 'Hard' based on their respected ranges. 
+- Allowed attempts in the left task bar menu of the live website also dosen't update the same data point in the blue highlighted prompt when changing difficulity levels. Its off by 1 when starting the server, but when 'New Game' button is pressed, the values finally match with each other.
 
 ---
 
 ## 2. How did you use AI as a teammate?
 
-- Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
+- Claude and CoPilot
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
